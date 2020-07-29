@@ -1,9 +1,9 @@
 const expect = require('chai').expect;
-const db = require('./db');
+const db = require('../db');
 const {Pool} = require('pg')
-const config = require('./config.json')
+const config = require('../config.json')
 const pool = new Pool(config.db)
-const logging = require('./logging')
+const logging = require('../logging')
 const logger = logging.logger
 
 describe('select', () => {
