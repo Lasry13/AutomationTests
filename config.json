@@ -1,0 +1,11 @@
+{
+  "host" : "ec2-18-219-149-240.us-east-2.compute.amazonaws.com",
+  "logs" : "/debug.log",
+  "db" : {
+    "host": "database-1.cb5vadxgubgj.us-east-2.rds.amazonaws.com",
+    "port": 5432,
+    "database": "postgres",
+    "user": "automation",
+    "password": "Shaked13"
+  }
+}

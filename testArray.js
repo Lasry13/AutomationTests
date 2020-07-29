@@ -12,6 +12,10 @@ const arraySum = (arr) => {
     return arr.reduce((a, b) => a + b)
 }
 
+const arraySort = (arr) => {
+    return arr.sort()
+}
+
 describe('Array', () => {
     describe('#testArrayMap', () => {
         it('Should return the sum of all elements in the array', () => {
@@ -28,6 +32,14 @@ describe('Array', () => {
     describe('#testArraySum', () => {
         it('Should return the sum of all elements in the array', () => {
             expect(arraySum([4, 3, 5, 2])).to.equal(14)
+        });
+    });
+});
+
+describe('Array', () => {
+    describe('#sortArray', () => {
+        it('Should sort the array in ascent order', () => {
+            console.log(arraySort([3, 5, 2]))
         });
     });
 });
