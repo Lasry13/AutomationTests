@@ -4,7 +4,7 @@
   "description": "automation_tests",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --timeout 10000"
+    "test": "mocha"
   },
   "dependencies": {
     "mocha": "^8.0.1",
