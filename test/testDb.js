@@ -21,7 +21,7 @@ describe('Test CRUD Operations on DB', () => {
         });
 
         it('Should return product name', async () => {
-            expect(product[0].name).to.equal('Eggs')
+            expect(product[0].name).to.equal('Chicken')
         });
 
         it('Should return product code', async () => {

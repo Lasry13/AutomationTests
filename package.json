@@ -4,14 +4,16 @@
   "description": "automation_tests",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha --reporter mochawesome"
   },
   "dependencies": {
     "mocha": "^8.0.1",
     "chai": "^4.2.0",
     "axios": "^0.19.2",
     "winston": "^3.3.3",
-    "pg": "^8.3.0"
+    "pg": "^8.3.0",
+    "mochawesome": "^6.1.1",
+    "nodemailer": "^6.4.11"
   },
   "keywords": [],
   "author": "",
